@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "104252405043",
+    "firebase_url": "https://heartrate-fe6e1.firebaseio.com",
+    "project_id": "heartrate-fe6e1",
+    "storage_bucket": "heartrate-fe6e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104252405043:android:3ac427bd5380a93e",
+        "android_client_info": {
+          "package_name": "com.example.laura.heartbeats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104252405043-iuo5okf326rkm6j1j7mqe0g1cpromjii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASFRyRvweyEu8VT4gB81vRttZB2LI-bpE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

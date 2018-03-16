@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laura.heartbeats.Main7Activity">
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBarLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Emergency Contacts"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView18"
+
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="67dp"
+        android:ems="10"
+        android:hint="enter phone number here"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button10"
+        android:text="Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_below="@+id/editText7"
+        android:layout_alignRight="@+id/editText7"
+        android:layout_alignEnd="@+id/editText7" />
+
+
+</RelativeLayout>
