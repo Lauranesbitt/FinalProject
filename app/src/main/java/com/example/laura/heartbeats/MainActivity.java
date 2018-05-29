@@ -2,20 +2,12 @@ package com.example.laura.heartbeats;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.BaseColumns;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 //import android.widget.Button;ipackage com.example.laura.heartbeats2;
 
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -48,6 +40,20 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    }
+
+    /**
+     * Created by laura on 29/05/2018.
+     */
+    public static class TaskContract {
+        public static final String DB_NAME = "com.example.laura.heartbeats.db";
+        public static final int DB_VERSION = 1;
+
+        public class TaskEntry implements BaseColumns {
+            public static final String TABLE = "tasks";
+
+            public static final String COL_TASK_TITLE = "title";
+        }
     }
 }
 

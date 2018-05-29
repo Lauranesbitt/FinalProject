@@ -13,9 +13,9 @@ public class Main4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
         Button showActivity5 = (Button) findViewById(R.id.button5);
-        Button showActivity6 = (Button) findViewById(R.id.button6);
+
         Button showActivity7 = (Button) findViewById(R.id.button7);
-       // Button showActivity8 = (Button) findViewById(R.id.button8);
+        Button showActivity8 = (Button) findViewById(R.id.button8);
 
         showActivity5.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,13 +27,7 @@ public class Main4Activity extends AppCompatActivity {
 
 
 
-        showActivity6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Main6Activity.class);
-                startActivity(intent);
-            }
-        });
+
 
 
         showActivity7.setOnClickListener(new View.OnClickListener() {
@@ -45,7 +39,13 @@ public class Main4Activity extends AppCompatActivity {
         });
 
 
-
+        showActivity8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Main8Activity.class);
+                startActivity(intent);
+            }
+        });
 
 
 
