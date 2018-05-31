@@ -5,13 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.laura.heartbeats.Main5Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/heartbeat">
 
 
     <Button
         android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
         android:onClick="videoplay"
         android:text="View Heart Rate" />
 

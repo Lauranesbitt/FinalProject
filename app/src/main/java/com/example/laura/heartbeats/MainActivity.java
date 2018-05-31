@@ -2,6 +2,7 @@ package com.example.laura.heartbeats;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.provider.BaseColumns;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -10,12 +11,12 @@ import android.view.View;
 
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends AppCompatActivity {;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Button showActivity2 = (Button) findViewById(R.id.button);
         Button showActivity3 = (Button) findViewById(R.id.button2);
 

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.laura.heartbeats.Main7Activity">
+    tools:context="com.example.laura.heartbeats.Main7Activity"
+    android:background="@drawable/background">
 
 
     <TextView
@@ -31,21 +32,23 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="67dp"
         android:ems="10"
-        android:hint="enter phone number here"
+        android:hint="Enter phone number here"
         android:inputType="phone" />
 
     <Button
         android:id="@+id/button10"
-        android:text="Call"
+        style="@android:style/Widget.Holo.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="95dp"
-        android:layout_marginRight="33dp"
-        android:layout_marginEnd="33dp"
-        android:layout_below="@+id/editText7"
+        android:layout_alignEnd="@+id/editText7"
         android:layout_alignRight="@+id/editText7"
-        android:layout_alignEnd="@+id/editText7" />
+        android:layout_below="@+id/editText7"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="95dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Call" />
 
 
 </RelativeLayout>
